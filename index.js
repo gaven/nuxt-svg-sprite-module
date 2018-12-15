@@ -131,9 +131,9 @@ module.exports = function (moduleOptions) {
 		// Write created file to directory
 		try {
 			writeFileSync('app.html', appHtml)
-			console.log(chalk.green('SVG sprite injected successfully'))
+			console.log(chalk.green('\u2714 success'), 'SVG sprite injected')
 		} catch(err) {
-			console.log(chalk.red('Error writing file to directory'))
+			console.log(chalk.red('\u2718 error'), 'SVG sprite could not be generated')
 		}
 	})
 }
