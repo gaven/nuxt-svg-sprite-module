@@ -15,13 +15,13 @@ In `nuxt.config.js`
 
 ```js
   modules: [
-    'nuxt-svg-sprite-module', {
+    ['nuxt-svg-sprite-module', {
       directory: '/assets/icons'
       options: {
         // Configuration options:
         // https://github.com/jkphl/svg-sprite#configuration-basics
       }
-    }
+    }]
   ]
 ```
 
