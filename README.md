@@ -1,6 +1,7 @@
 # nuxt-svg-sprite-module
 
 > A quick and dirty way to inline svg sprites in your Nuxt app.
+
 ## Install
 
 ```sh
@@ -16,7 +17,7 @@ In `nuxt.config.js`
 ```js
   modules: [
     ['nuxt-svg-sprite-module', {
-      directory: '/assets/icons'
+      directory: '~/assets/icons'
       options: {
         // Configuration options:
         // https://github.com/jkphl/svg-sprite#configuration-basics
@@ -32,9 +33,9 @@ This module finds svgs in your specified directory and inlines them in Nuxt's [a
 By default, icons are prefixed with the word `icon`.
 
 ```html
-  <svg>
-    <use xlink:href='#icon-foo'></use>
-  </svg>
+<svg>
+  <use xlink:href="#icon-foo"></use>
+</svg>
 ```
 
 In order to tell this module where to inline your sprite you need to include a comment within your `app.html` file. Idealy this comment would proceed the opening `<body>` tag. If an `app.html` file does not exist, one will be generated in its absence.
@@ -51,5 +52,5 @@ Pull requests and stars are always welcome. For bugs and feature requests, [plea
 
 #### Gaven Heim
 
-* [github/gaven](https://github.com/gaven)
-* [twitter/gavenheim](https://twitter.com/gavenheim)
+- [github/gaven](https://github.com/gaven)
+- [twitter/gavenheim](https://twitter.com/gavenheim)

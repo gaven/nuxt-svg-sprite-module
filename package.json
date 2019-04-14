@@ -1,6 +1,6 @@
 {
   "name": "nuxt-svg-sprite-module",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A quick and dirty way to inline svg sprites in your Nuxt app.",
   "main": "index.js",
   "repository": "https://github.com/gaven/nuxt-svg-sprite-module",
