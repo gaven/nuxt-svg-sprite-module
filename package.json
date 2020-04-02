@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/gaven/nuxt-svg-sprite-module#readme",
   "dependencies": {
-    "chalk": "^3.0.0",
+    "chalk": "^4.0.0",
     "inject-snippet": "^0.3.0",
     "svg-sprite": "^1.5.0"
   },
