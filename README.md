@@ -15,15 +15,20 @@ $ npm install nuxt-svg-sprite-module --save
 In `nuxt.config.js`
 
 ```js
-  modules: [
-    ['nuxt-svg-sprite-module', {
-      directory: '~/assets/icons'
+modules: [
+  [
+    "nuxt-svg-sprite-module",
+    {
+      directory: "~/assets/icons",
+      // Optional template location: defaults to __dirname + /app.html
+      templateLocation: "src/app.html",
       options: {
         // Configuration options:
         // https://github.com/jkphl/svg-sprite#configuration-basics
-      }
-    }]
-  ]
+      },
+    },
+  ],
+];
 ```
 
 ## Usage
